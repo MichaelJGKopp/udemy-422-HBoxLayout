@@ -2,8 +2,9 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.VBox?>
-<VBox fx:controller="dev.lpa.udemy422hboxlayout.HelloController"
-      xmlns:fx="http://javafx.com/fxml">
+<?import javafx.scene.layout.TilePane?>
+<TilePane fx:controller="dev.lpa.udemy422hboxlayout.HelloController"
+          xmlns:fx="http://javafx.com/fxml">
     <!--  horizontal is default anyway  -->
     <Button text="Button One"/>
     <Button text="Button Two"/>
@@ -15,7 +16,7 @@
     <Button text="Button Eight"/>
     <Button text="Button Nine"/>
     <Button text="Button Ten"/>
-</VBox>
+</TilePane>
 
 
 <!--FlowPane HERE-->
