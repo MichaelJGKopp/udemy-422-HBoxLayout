@@ -1,9 +1,10 @@
-<!--FlowPane HERE-->
+<!--VBOX HERE-->
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.control.Button?>
-<FlowPane fx:controller="dev.lpa.udemy422hboxlayout.HelloController"
-          xmlns:fx="http://javafx.com/fxml" orientation="HORIZONTAL">
-<!--  horizontal is default anyway  -->
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="dev.lpa.udemy422hboxlayout.HelloController"
+      xmlns:fx="http://javafx.com/fxml">
+    <!--  horizontal is default anyway  -->
     <Button text="Button One"/>
     <Button text="Button Two"/>
     <Button text="Button Three"/>
@@ -14,7 +15,27 @@
     <Button text="Button Eight"/>
     <Button text="Button Nine"/>
     <Button text="Button Ten"/>
-</FlowPane>
+</VBox>
+
+
+<!--FlowPane HERE-->
+<!--<?import javafx.scene.layout.FlowPane?>-->
+<!--<?import javafx.scene.control.Button?>-->
+<!--<FlowPane fx:controller="dev.lpa.udemy422hboxlayout.HelloController"-->
+<!--          xmlns:fx="http://javafx.com/fxml" orientation="VERTICAL">-->
+<!--&lt;!&ndash;  horizontal is default anyway  &ndash;&gt;-->
+<!--    <Button text="Button One"/>-->
+<!--    <Button text="Button Two"/>-->
+<!--    <Button text="Button Three"/>-->
+<!--    <Button text="Button Four"/>-->
+<!--    <Button text="Button Five"/>-->
+<!--    <Button text="Button Six"/>-->
+<!--    <Button text="Button Seven"/>-->
+<!--    <Button text="Button Eight"/>-->
+<!--    <Button text="Button Nine"/>-->
+<!--    <Button text="Button Ten"/>-->
+<!--</FlowPane>-->
+
 
 <!--<?xml version="1.0" encoding="UTF-8"?>-->
 
